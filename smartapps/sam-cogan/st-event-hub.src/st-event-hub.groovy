@@ -15,8 +15,8 @@
  */
 definition(
     name: "ST-Event-Hub",
-    namespace: "sam-cogan",
-    author: "Sam Cogan",
+    namespace: "rich8690",
+    author: "Richard Coile",
     description: "Smartthings Azure Event Hub Integration",
     category: "My Apps",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
@@ -28,6 +28,7 @@ definition(
 
 
 preferences {
+/* Temporarily removing unused sensors	
     section("Power Meter") {
         input "powers", "capability.powerMeter", title: "Power Sensor", multiple: true
     }
@@ -37,6 +38,7 @@ preferences {
     section("Security Sensors") {
         input "motions", "capability.motionSensor", title: "Motion Sensors", multiple: true
         }
+*/	
     section("Switches") {
         input "switches", "capability.switch", title: "Switches", multiple: true
     }
